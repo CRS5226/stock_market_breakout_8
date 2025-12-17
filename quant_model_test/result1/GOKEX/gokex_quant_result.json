@@ -1,0 +1,72 @@
+{
+  "stock_code": "GOKEX",
+  "generated_at": "2025-11-03T16:00:57.697804",
+  "forecasts": [
+    {
+      "timeframe": "5min",
+      "quant_signal": "SELL",
+      "quant_confidence": 0.6805,
+      "train_time_sec": 1.597,
+      "train_accuracy": 0.5625,
+      "train_precision": 0.5625,
+      "train_recall": 0.72,
+      "train_f1": 0.6316,
+      "last_updated": "2025-11-03T16:00:46.182547"
+    },
+    {
+      "timeframe": "15min",
+      "quant_signal": "SELL",
+      "quant_confidence": 0.6775,
+      "train_time_sec": 1.744,
+      "train_accuracy": 0.48,
+      "train_precision": 0.5714,
+      "train_recall": 0.2857,
+      "train_f1": 0.381,
+      "last_updated": "2025-11-03T16:00:48.669231"
+    },
+    {
+      "timeframe": "30min",
+      "quant_signal": "BUY",
+      "quant_confidence": 0.6188,
+      "train_time_sec": 1.833,
+      "train_accuracy": 0.5684,
+      "train_precision": 0.5778,
+      "train_recall": 0.5417,
+      "train_f1": 0.5591,
+      "last_updated": "2025-11-03T16:00:51.412609"
+    },
+    {
+      "timeframe": "45min",
+      "quant_signal": "SELL",
+      "quant_confidence": 0.7825,
+      "train_time_sec": 1.401,
+      "train_accuracy": 0.5161,
+      "train_precision": 0.5556,
+      "train_recall": 0.5882,
+      "train_f1": 0.5714,
+      "last_updated": "2025-11-03T16:00:53.116390"
+    },
+    {
+      "timeframe": "1hour",
+      "quant_signal": "SELL",
+      "quant_confidence": 0.6518,
+      "train_time_sec": 1.549,
+      "train_accuracy": 0.479,
+      "train_precision": 0.4364,
+      "train_recall": 0.4364,
+      "train_f1": 0.4364,
+      "last_updated": "2025-11-03T16:00:55.890278"
+    },
+    {
+      "timeframe": "4hour",
+      "quant_signal": "SELL",
+      "quant_confidence": 0.7133,
+      "train_time_sec": 1.448,
+      "train_accuracy": 0.3889,
+      "train_precision": 0.0,
+      "train_recall": 0.0,
+      "train_f1": 0.0,
+      "last_updated": "2025-11-03T16:00:57.696483"
+    }
+  ]
+}

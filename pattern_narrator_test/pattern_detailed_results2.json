@@ -1,0 +1,679 @@
+[
+  {
+    "stock": "FORCEMOT",
+    "results": [
+      {
+        "timeframe": "1min",
+        "pattern_text": "RSI rising from 50.5 → 50.6; MACD falling (3.058→2.224), Signal (1.418→1.937), Hist 1.640→0.287; ADX weakening from 7.65 → 6.78",
+        "patterns": [],
+        "pattern_counts": {},
+        "indicators": {
+          "rsi_start": 50.4995,
+          "rsi_end": 50.5729,
+          "macd_start": 3.0579,
+          "macd_end": 2.2235,
+          "macd_hist_trend": "falling",
+          "adx_start": 7.6468,
+          "adx_end": 6.7776
+        },
+        "timestamp": "2025-11-10 10:43",
+        "total_candles": 10
+      },
+      {
+        "timeframe": "5min",
+        "pattern_text": "Bearish Hikkake (4 candles) 2025-11-10 10:25 → 2025-11-10 10:40; RSI rising from 46.3 → 47.5; MACD rising (-27.235→-23.578), Signal (-16.329→-20.461), Hist -10.906→-3.118; ADX weakening from 60.99 → 60.19",
+        "patterns": [
+          {
+            "name": "Bearish Hikkake",
+            "start_ts": "2025-11-10 10:25",
+            "end_ts": "2025-11-10 10:40",
+            "candles_used": 4,
+            "best_tf": "45min",
+            "strategy": "Watch for failed breakout reversals",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-10 10:25",
+                "Open": 18150.8,
+                "High": 18191.2,
+                "Low": 18150.8,
+                "Close": 18164.95,
+                "Volume": 183.0
+              },
+              {
+                "Timestamp": "2025-11-10 10:30",
+                "Open": 18164.95,
+                "High": 18205.0,
+                "Low": 18164.95,
+                "Close": 18177.85,
+                "Volume": 267.0
+              },
+              {
+                "Timestamp": "2025-11-10 10:35",
+                "Open": 18177.85,
+                "High": 18177.85,
+                "Low": 18177.85,
+                "Close": 18177.85,
+                "Volume": 1.0
+              },
+              {
+                "Timestamp": "2025-11-10 10:40",
+                "Open": 18182.6,
+                "High": 18182.6,
+                "Low": 18182.6,
+                "Close": 18182.6,
+                "Volume": 0.0
+              }
+            ]
+          }
+        ],
+        "pattern_counts": {
+          "4": 1
+        },
+        "indicators": {
+          "rsi_start": 46.2729,
+          "rsi_end": 47.4861,
+          "macd_start": -27.2351,
+          "macd_end": -23.5785,
+          "macd_hist_trend": "rising",
+          "adx_start": 60.9904,
+          "adx_end": 60.1852
+        },
+        "timestamp": "2025-11-10 10:40",
+        "total_candles": 10
+      },
+      {
+        "timeframe": "15min",
+        "pattern_text": "Bearish Engulfing (3 candles) 2025-11-07 14:30 → 2025-11-07 15:00; Bearish Engulfing (3 candles) 2025-11-10 09:30 → 2025-11-10 10:00; Bearish Hikkake (4 candles) 2025-11-10 09:30 → 2025-11-10 10:15; RSI rising from 48.3 → 48.7; MACD falling (26.874→9.334), Signal (35.572→24.569), Hist -8.698→-15.235; ADX strengthening from 20.75 → 26.22",
+        "patterns": [
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-07 14:30",
+            "end_ts": "2025-11-07 15:00",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 14:30",
+                "Open": 18300.0,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 185.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:45",
+                "Open": 18278.65,
+                "High": 18290.0,
+                "Low": 18216.05,
+                "Close": 18290.0,
+                "Volume": 268.0
+              },
+              {
+                "Timestamp": "2025-11-07 15:00",
+                "Open": 18290.0,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 207.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-10 09:30",
+            "end_ts": "2025-11-10 10:00",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-10 09:30",
+                "Open": 18355.0,
+                "High": 18386.15,
+                "Low": 18117.05,
+                "Close": 18159.0,
+                "Volume": 1376.0
+              },
+              {
+                "Timestamp": "2025-11-10 09:45",
+                "Open": 18159.0,
+                "High": 18299.7,
+                "Low": 18050.0,
+                "Close": 18175.4,
+                "Volume": 1019.0
+              },
+              {
+                "Timestamp": "2025-11-10 10:00",
+                "Open": 18175.4,
+                "High": 18194.25,
+                "Low": 18130.0,
+                "Close": 18155.95,
+                "Volume": 240.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Hikkake",
+            "start_ts": "2025-11-10 09:30",
+            "end_ts": "2025-11-10 10:15",
+            "candles_used": 4,
+            "best_tf": "45min",
+            "strategy": "Watch for failed breakout reversals",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-10 09:30",
+                "Open": 18355.0,
+                "High": 18386.15,
+                "Low": 18117.05,
+                "Close": 18159.0,
+                "Volume": 1376.0
+              },
+              {
+                "Timestamp": "2025-11-10 09:45",
+                "Open": 18159.0,
+                "High": 18299.7,
+                "Low": 18050.0,
+                "Close": 18175.4,
+                "Volume": 1019.0
+              },
+              {
+                "Timestamp": "2025-11-10 10:00",
+                "Open": 18175.4,
+                "High": 18194.25,
+                "Low": 18130.0,
+                "Close": 18155.95,
+                "Volume": 240.0
+              },
+              {
+                "Timestamp": "2025-11-10 10:15",
+                "Open": 18155.95,
+                "High": 18224.2,
+                "Low": 18148.45,
+                "Close": 18164.95,
+                "Volume": 276.0
+              }
+            ]
+          }
+        ],
+        "pattern_counts": {
+          "3": 2,
+          "4": 1
+        },
+        "indicators": {
+          "rsi_start": 48.3293,
+          "rsi_end": 48.7035,
+          "macd_start": 26.8737,
+          "macd_end": 9.3341,
+          "macd_hist_trend": "falling",
+          "adx_start": 20.7548,
+          "adx_end": 26.2242
+        },
+        "timestamp": "2025-11-10 10:30",
+        "total_candles": 10
+      },
+      {
+        "timeframe": "30min",
+        "pattern_text": "Bearish Engulfing (3 candles) 2025-11-07 12:45 → 2025-11-07 13:45; Bullish Engulfing (3 candles) 2025-11-07 13:15 → 2025-11-07 14:15; Bearish Engulfing (3 candles) 2025-11-07 13:45 → 2025-11-07 14:45; Bullish Engulfing (3 candles) 2025-11-10 09:15 → 2025-11-10 10:15; Bullish Matchinglow (3 candles) 2025-11-07 15:15 → 2025-11-10 09:45; RSI falling from 52.7 → 50.4; MACD falling (19.168→10.060), Signal (-2.514→4.483), Hist 21.682→5.576; ADX strengthening from 15.16 → 21.06",
+        "patterns": [
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-07 12:45",
+            "end_ts": "2025-11-07 13:45",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Engulfing",
+            "start_ts": "2025-11-07 13:15",
+            "end_ts": "2025-11-07 14:15",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-07 13:45",
+            "end_ts": "2025-11-07 14:45",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:45",
+                "Open": 18278.65,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 475.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Engulfing",
+            "start_ts": "2025-11-10 09:15",
+            "end_ts": "2025-11-10 10:15",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-10 09:15",
+                "Open": 19000.45,
+                "High": 19066.0,
+                "Low": 18117.05,
+                "Close": 18159.0,
+                "Volume": 6560.0
+              },
+              {
+                "Timestamp": "2025-11-10 09:45",
+                "Open": 18159.0,
+                "High": 18299.7,
+                "Low": 18050.0,
+                "Close": 18155.95,
+                "Volume": 1259.0
+              },
+              {
+                "Timestamp": "2025-11-10 10:15",
+                "Open": 18155.95,
+                "High": 18224.2,
+                "Low": 18148.45,
+                "Close": 18177.85,
+                "Volume": 544.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Matchinglow",
+            "start_ts": "2025-11-07 15:15",
+            "end_ts": "2025-11-10 09:45",
+            "candles_used": 3,
+            "best_tf": "N/A",
+            "strategy": "General observation — confirmation required",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 15:15",
+                "Open": 18232.65,
+                "High": 18232.65,
+                "Low": 18149.0,
+                "Close": 18220.0,
+                "Volume": 356.0
+              },
+              {
+                "Timestamp": "2025-11-10 09:15",
+                "Open": 19000.45,
+                "High": 19066.0,
+                "Low": 18117.05,
+                "Close": 18159.0,
+                "Volume": 6560.0
+              },
+              {
+                "Timestamp": "2025-11-10 09:45",
+                "Open": 18159.0,
+                "High": 18299.7,
+                "Low": 18050.0,
+                "Close": 18155.95,
+                "Volume": 1259.0
+              }
+            ]
+          }
+        ],
+        "pattern_counts": {
+          "3": 5
+        },
+        "indicators": {
+          "rsi_start": 52.667069357172906,
+          "rsi_end": 50.4199,
+          "macd_start": 19.167972593426384,
+          "macd_end": 10.0597,
+          "macd_hist_trend": "falling",
+          "adx_start": 15.164963050383019,
+          "adx_end": 21.0627
+        },
+        "timestamp": "2025-11-10 10:15",
+        "total_candles": 10
+      },
+      {
+        "timeframe": "45min",
+        "pattern_text": "Bullish Engulfing (3 candles) 2025-11-07 13:00 → 2025-11-07 14:30; Bearish Engulfing (3 candles) 2025-11-07 13:45 → 2025-11-07 15:15; RSI falling from 52.9 → 50.1; MACD rising (41.630→43.135), Signal (48.129→32.780), Hist -6.499→10.355; ADX weakening from 25.40 → 20.34",
+        "patterns": [
+          {
+            "name": "Bullish Engulfing",
+            "start_ts": "2025-11-07 13:00",
+            "end_ts": "2025-11-07 14:30",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:00",
+                "Open": 18425.0,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 901.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18200.05,
+                "Close": 18235.5,
+                "Volume": 278.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:30",
+                "Open": 18235.5,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 385.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-07 13:45",
+            "end_ts": "2025-11-07 15:15",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18200.05,
+                "Close": 18235.5,
+                "Volume": 278.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:30",
+                "Open": 18235.5,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 385.0
+              },
+              {
+                "Timestamp": "2025-11-07 15:15",
+                "Open": 18278.65,
+                "High": 18300.0,
+                "Low": 18149.0,
+                "Close": 18220.0,
+                "Volume": 831.0
+              }
+            ]
+          }
+        ],
+        "pattern_counts": {
+          "3": 2
+        },
+        "indicators": {
+          "rsi_start": 52.927930262542574,
+          "rsi_end": 50.10499208088612,
+          "macd_start": 41.62989663746703,
+          "macd_end": 43.134974701690226,
+          "macd_hist_trend": "rising",
+          "adx_start": 25.40131230463533,
+          "adx_end": 20.343447195542854
+        },
+        "timestamp": "2025-11-10 10:00",
+        "total_candles": 10
+      },
+      {
+        "timeframe": "1hour",
+        "pattern_text": "Bullish Engulfing (3 candles) 2025-11-06 15:15 → 2025-11-07 10:15; Bullish Matchinglow (3 candles) 2025-11-07 12:15 → 2025-11-07 14:15; Bullish Matchinglow (3 candles) 2025-11-07 13:15 → 2025-11-07 15:15; RSI falling from 55.8 → 53.8; MACD rising (99.445→82.365), Signal (138.363→113.672), Hist -38.918→-31.308; ADX strengthening from 19.62 → 22.02",
+        "patterns": [
+          {
+            "name": "Bullish Engulfing",
+            "start_ts": "2025-11-06 15:15",
+            "end_ts": "2025-11-07 10:15",
+            "candles_used": 3,
+            "best_tf": "30min–1H",
+            "strategy": "Use with MACD crossover for trend continuation",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-06 15:15",
+                "Open": 17871.25,
+                "High": 17960.0,
+                "Low": 17811.1,
+                "Close": 17899.0,
+                "Volume": 681.0
+              },
+              {
+                "Timestamp": "2025-11-07 09:15",
+                "Open": 17823.3,
+                "High": 18144.0,
+                "Low": 17622.05,
+                "Close": 17780.5,
+                "Volume": 4563.0
+              },
+              {
+                "Timestamp": "2025-11-07 10:15",
+                "Open": 17780.5,
+                "High": 17990.25,
+                "Low": 17742.2,
+                "Close": 17919.05,
+                "Volume": 955.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Matchinglow",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 14:15",
+            "candles_used": 3,
+            "best_tf": "N/A",
+            "strategy": "General observation — confirmation required",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18265.0,
+                "Volume": 1576.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 362.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 776.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Matchinglow",
+            "start_ts": "2025-11-07 13:15",
+            "end_ts": "2025-11-07 15:15",
+            "candles_used": 3,
+            "best_tf": "N/A",
+            "strategy": "General observation — confirmation required",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 362.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 776.0
+              },
+              {
+                "Timestamp": "2025-11-07 15:15",
+                "Open": 18232.65,
+                "High": 18232.65,
+                "Low": 18149.0,
+                "Close": 18220.0,
+                "Volume": 356.0
+              }
+            ]
+          }
+        ],
+        "pattern_counts": {
+          "3": 3
+        },
+        "indicators": {
+          "rsi_start": 55.837386212599185,
+          "rsi_end": 53.7972,
+          "macd_start": 99.44532608921145,
+          "macd_end": 82.3645,
+          "macd_hist_trend": "rising",
+          "adx_start": 19.623231723088594,
+          "adx_end": 22.0204
+        },
+        "timestamp": "2025-11-10 10:15",
+        "total_candles": 10
+      },
+      {
+        "timeframe": "4hour",
+        "pattern_text": "Bullish Hikkake (4 candles) 2025-11-03 12:15 → 2025-11-07 12:15; RSI falling from 58.1 → 57.9; MACD falling (1.164→192.579), Signal (-257.031→-58.250), Hist 258.195→250.828; ADX strengthening from 13.16 → 16.33",
+        "patterns": [
+          {
+            "name": "Bullish Hikkake",
+            "start_ts": "2025-11-03 12:15",
+            "end_ts": "2025-11-07 12:15",
+            "candles_used": 4,
+            "best_tf": "45min",
+            "strategy": "Watch for failed breakout reversals",
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-03 12:15",
+                "Open": 17733.4,
+                "High": 18555.0,
+                "Low": 17733.4,
+                "Close": 18244.65,
+                "Volume": 7510.0
+              },
+              {
+                "Timestamp": "2025-11-04 12:15",
+                "Open": 18560.0,
+                "High": 18731.25,
+                "Low": 18040.0,
+                "Close": 18142.35,
+                "Volume": 3886.0
+              },
+              {
+                "Timestamp": "2025-11-06 12:15",
+                "Open": 18448.0,
+                "High": 18730.95,
+                "Low": 18178.95,
+                "Close": 18253.0,
+                "Volume": 6582.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 17823.3,
+                "High": 18483.95,
+                "Low": 17622.05,
+                "Close": 18265.0,
+                "Volume": 8978.0
+              }
+            ]
+          }
+        ],
+        "pattern_counts": {
+          "4": 1
+        },
+        "indicators": {
+          "rsi_start": 58.0731200213865,
+          "rsi_end": 57.93949418922699,
+          "macd_start": 1.1639315966349386,
+          "macd_end": 192.5785605582023,
+          "macd_hist_trend": "falling",
+          "adx_start": 13.155105959121821,
+          "adx_end": 16.325015524569505
+        },
+        "timestamp": "2025-11-10 12:15",
+        "total_candles": 10
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "Best_Config": {
+    "LOOKBACK": 30,
+    "LR": 0.001,
+    "hidden_dim": 64,
+    "dropout": 0.35
+  },
+  "Metrics": {
+    "DirAcc": 0.6489,
+    "Best_Horizon": 3,
+    "MAE": 609.478,
+    "RMSE": 816.589,
+    "R2": -1.547
+  }
+}

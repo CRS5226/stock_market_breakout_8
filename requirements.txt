@@ -1,0 +1,10 @@
+streamlit
+pandas
+python-dotenv
+breeze-connect
+python-telegram-bot
+kiteconnect
+openai
+redis
+oauth2client
+google-api-python-client

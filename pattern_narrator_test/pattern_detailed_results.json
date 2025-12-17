@@ -1,0 +1,1105 @@
+[
+  {
+    "stock": "FORCEMOT",
+    "results": [
+      {
+        "timeframe": "30min",
+        "pattern_text": "Bullish Belthold detected using 3 candles from 2025-11-07 09:45 to 2025-11-07 10:45; Bullish Doji detected using 3 candles from 2025-11-07 12:15 to 2025-11-07 13:15; Bullish Doji detected using 3 candles from 2025-11-07 12:45 to 2025-11-07 13:45; Bullish Doji detected using 3 candles from 2025-11-07 14:15 to 2025-11-07 15:15; Bullish Dragonflydoji detected using 3 candles from 2025-11-07 14:15 to 2025-11-07 15:15; Bearish Engulfing detected using 3 candles from 2025-11-06 12:15 to 2025-11-06 13:15; Bullish Engulfing detected using 3 candles from 2025-11-07 09:15 to 2025-11-07 10:15; Bearish Engulfing detected using 3 candles from 2025-11-07 11:45 to 2025-11-07 12:45; Bearish Engulfing detected using 3 candles from 2025-11-07 12:45 to 2025-11-07 13:45; Bullish Engulfing detected using 3 candles from 2025-11-07 13:15 to 2025-11-07 14:15; Bearish Engulfing detected using 3 candles from 2025-11-07 13:45 to 2025-11-07 14:45; Bullish Gravestonedoji detected using 3 candles from 2025-11-07 12:15 to 2025-11-07 13:15; Bullish Highwave detected using 3 candles from 2025-11-07 12:15 to 2025-11-07 13:15; Bearish Hikkake detected using 3 candles from 2025-11-07 09:45 to 2025-11-07 10:45; Bullish Hikkake detected using 3 candles from 2025-11-07 12:15 to 2025-11-07 13:15; Bullish Longleggeddoji detected using 3 candles from 2025-11-07 12:15 to 2025-11-07 13:15; Bullish Longleggeddoji detected using 3 candles from 2025-11-07 12:45 to 2025-11-07 13:45; Bullish Longleggeddoji detected using 3 candles from 2025-11-07 14:15 to 2025-11-07 15:15; Bullish Longline detected using 3 candles from 2025-11-07 09:45 to 2025-11-07 10:45; Bullish Matchinglow detected using 3 candles from 2025-11-06 15:15 to 2025-11-07 09:45; Bullish Rickshawman detected using 3 candles from 2025-11-07 12:15 to 2025-11-07 13:15; Bullish Rickshawman detected using 3 candles from 2025-11-07 12:45 to 2025-11-07 13:45; Bullish Shortline detected using 3 candles from 2025-11-07 12:15 to 2025-11-07 13:15; Bearish Shortline detected using 3 candles from 2025-11-07 12:45 to 2025-11-07 13:45; Bullish Shortline detected using 3 candles from 2025-11-07 13:15 to 2025-11-07 14:15; Bearish Shortline detected using 3 candles from 2025-11-07 13:45 to 2025-11-07 14:45; Bullish Spinningtop detected using 3 candles from 2025-11-07 12:15 to 2025-11-07 13:15; Bearish Spinningtop detected using 3 candles from 2025-11-07 12:45 to 2025-11-07 13:45; Bullish Spinningtop detected using 3 candles from 2025-11-07 13:15 to 2025-11-07 14:15; Bullish Takuri detected using 3 candles from 2025-11-07 14:15 to 2025-11-07 15:15; RSI falling from 54.2 → 52.7; MACD falling (6.212→19.168), Signal (-21.771→-2.514), Hist 27.982→21.682; ADX weakening from 16.74 → 15.16",
+        "patterns": [
+          {
+            "name": "Bullish Belthold",
+            "start_ts": "2025-11-07 09:45",
+            "end_ts": "2025-11-07 10:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 09:45",
+                "Open": 17786.8,
+                "High": 18044.25,
+                "Low": 17667.05,
+                "Close": 17780.5,
+                "Volume": 1196.0
+              },
+              {
+                "Timestamp": "2025-11-07 10:15",
+                "Open": 17780.5,
+                "High": 17911.9,
+                "Low": 17742.2,
+                "Close": 17837.65,
+                "Volume": 706.0
+              },
+              {
+                "Timestamp": "2025-11-07 10:45",
+                "Open": 17837.65,
+                "High": 17990.25,
+                "Low": 17837.65,
+                "Close": 17919.05,
+                "Volume": 249.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Doji",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Doji",
+            "start_ts": "2025-11-07 12:45",
+            "end_ts": "2025-11-07 13:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Doji",
+            "start_ts": "2025-11-07 14:15",
+            "end_ts": "2025-11-07 15:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:45",
+                "Open": 18278.65,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 475.0
+              },
+              {
+                "Timestamp": "2025-11-07 15:15",
+                "Open": 18232.65,
+                "High": 18232.65,
+                "Low": 18149.0,
+                "Close": 18220.0,
+                "Volume": 356.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Dragonflydoji",
+            "start_ts": "2025-11-07 14:15",
+            "end_ts": "2025-11-07 15:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:45",
+                "Open": 18278.65,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 475.0
+              },
+              {
+                "Timestamp": "2025-11-07 15:15",
+                "Open": 18232.65,
+                "High": 18232.65,
+                "Low": 18149.0,
+                "Close": 18220.0,
+                "Volume": 356.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-06 12:15",
+            "end_ts": "2025-11-06 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-06 12:15",
+                "Open": 18318.1,
+                "High": 18357.95,
+                "Low": 18211.25,
+                "Close": 18243.0,
+                "Volume": 272.0
+              },
+              {
+                "Timestamp": "2025-11-06 12:45",
+                "Open": 18243.0,
+                "High": 18257.45,
+                "Low": 18178.95,
+                "Close": 18253.0,
+                "Volume": 153.0
+              },
+              {
+                "Timestamp": "2025-11-06 13:15",
+                "Open": 18253.0,
+                "High": 18253.55,
+                "Low": 18161.75,
+                "Close": 18176.0,
+                "Volume": 151.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Engulfing",
+            "start_ts": "2025-11-07 09:15",
+            "end_ts": "2025-11-07 10:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 09:15",
+                "Open": 17823.3,
+                "High": 18144.0,
+                "Low": 17622.05,
+                "Close": 17786.8,
+                "Volume": 3367.0
+              },
+              {
+                "Timestamp": "2025-11-07 09:45",
+                "Open": 17786.8,
+                "High": 18044.25,
+                "Low": 17667.05,
+                "Close": 17780.5,
+                "Volume": 1196.0
+              },
+              {
+                "Timestamp": "2025-11-07 10:15",
+                "Open": 17780.5,
+                "High": 17911.9,
+                "Low": 17742.2,
+                "Close": 17837.65,
+                "Volume": 706.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-07 11:45",
+            "end_ts": "2025-11-07 12:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 11:45",
+                "Open": 18077.5,
+                "High": 18374.95,
+                "Low": 18012.85,
+                "Close": 18280.0,
+                "Volume": 914.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-07 12:45",
+            "end_ts": "2025-11-07 13:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Engulfing",
+            "start_ts": "2025-11-07 13:15",
+            "end_ts": "2025-11-07 14:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Engulfing",
+            "start_ts": "2025-11-07 13:45",
+            "end_ts": "2025-11-07 14:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:45",
+                "Open": 18278.65,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 475.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Gravestonedoji",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Highwave",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Hikkake",
+            "start_ts": "2025-11-07 09:45",
+            "end_ts": "2025-11-07 10:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 09:45",
+                "Open": 17786.8,
+                "High": 18044.25,
+                "Low": 17667.05,
+                "Close": 17780.5,
+                "Volume": 1196.0
+              },
+              {
+                "Timestamp": "2025-11-07 10:15",
+                "Open": 17780.5,
+                "High": 17911.9,
+                "Low": 17742.2,
+                "Close": 17837.65,
+                "Volume": 706.0
+              },
+              {
+                "Timestamp": "2025-11-07 10:45",
+                "Open": 17837.65,
+                "High": 17990.25,
+                "Low": 17837.65,
+                "Close": 17919.05,
+                "Volume": 249.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Hikkake",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Longleggeddoji",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Longleggeddoji",
+            "start_ts": "2025-11-07 12:45",
+            "end_ts": "2025-11-07 13:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Longleggeddoji",
+            "start_ts": "2025-11-07 14:15",
+            "end_ts": "2025-11-07 15:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:45",
+                "Open": 18278.65,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 475.0
+              },
+              {
+                "Timestamp": "2025-11-07 15:15",
+                "Open": 18232.65,
+                "High": 18232.65,
+                "Low": 18149.0,
+                "Close": 18220.0,
+                "Volume": 356.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Longline",
+            "start_ts": "2025-11-07 09:45",
+            "end_ts": "2025-11-07 10:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 09:45",
+                "Open": 17786.8,
+                "High": 18044.25,
+                "Low": 17667.05,
+                "Close": 17780.5,
+                "Volume": 1196.0
+              },
+              {
+                "Timestamp": "2025-11-07 10:15",
+                "Open": 17780.5,
+                "High": 17911.9,
+                "Low": 17742.2,
+                "Close": 17837.65,
+                "Volume": 706.0
+              },
+              {
+                "Timestamp": "2025-11-07 10:45",
+                "Open": 17837.65,
+                "High": 17990.25,
+                "Low": 17837.65,
+                "Close": 17919.05,
+                "Volume": 249.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Matchinglow",
+            "start_ts": "2025-11-06 15:15",
+            "end_ts": "2025-11-07 09:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-06 15:15",
+                "Open": 17871.25,
+                "High": 17960.0,
+                "Low": 17811.1,
+                "Close": 17899.0,
+                "Volume": 681.0
+              },
+              {
+                "Timestamp": "2025-11-07 09:15",
+                "Open": 17823.3,
+                "High": 18144.0,
+                "Low": 17622.05,
+                "Close": 17786.8,
+                "Volume": 3367.0
+              },
+              {
+                "Timestamp": "2025-11-07 09:45",
+                "Open": 17786.8,
+                "High": 18044.25,
+                "Low": 17667.05,
+                "Close": 17780.5,
+                "Volume": 1196.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Rickshawman",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Rickshawman",
+            "start_ts": "2025-11-07 12:45",
+            "end_ts": "2025-11-07 13:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Shortline",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Shortline",
+            "start_ts": "2025-11-07 12:45",
+            "end_ts": "2025-11-07 13:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Shortline",
+            "start_ts": "2025-11-07 13:15",
+            "end_ts": "2025-11-07 14:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Shortline",
+            "start_ts": "2025-11-07 13:45",
+            "end_ts": "2025-11-07 14:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:45",
+                "Open": 18278.65,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 475.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Spinningtop",
+            "start_ts": "2025-11-07 12:15",
+            "end_ts": "2025-11-07 13:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:15",
+                "Open": 18280.0,
+                "High": 18483.95,
+                "Low": 18250.0,
+                "Close": 18344.25,
+                "Volume": 849.0
+              },
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              }
+            ]
+          },
+          {
+            "name": "Bearish Spinningtop",
+            "start_ts": "2025-11-07 12:45",
+            "end_ts": "2025-11-07 13:45",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 12:45",
+                "Open": 18344.25,
+                "High": 18463.5,
+                "Low": 18262.25,
+                "Close": 18265.0,
+                "Volume": 727.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Spinningtop",
+            "start_ts": "2025-11-07 13:15",
+            "end_ts": "2025-11-07 14:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 13:15",
+                "Open": 18265.0,
+                "High": 18328.15,
+                "Low": 18260.05,
+                "Close": 18266.35,
+                "Volume": 139.0
+              },
+              {
+                "Timestamp": "2025-11-07 13:45",
+                "Open": 18266.35,
+                "High": 18302.85,
+                "Low": 18200.05,
+                "Close": 18240.2,
+                "Volume": 223.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              }
+            ]
+          },
+          {
+            "name": "Bullish Takuri",
+            "start_ts": "2025-11-07 14:15",
+            "end_ts": "2025-11-07 15:15",
+            "candles_used": 3,
+            "ohlcv_values": [
+              {
+                "Timestamp": "2025-11-07 14:15",
+                "Open": 18240.2,
+                "High": 18321.55,
+                "Low": 18160.0,
+                "Close": 18278.65,
+                "Volume": 301.0
+              },
+              {
+                "Timestamp": "2025-11-07 14:45",
+                "Open": 18278.65,
+                "High": 18300.0,
+                "Low": 18160.0,
+                "Close": 18232.65,
+                "Volume": 475.0
+              },
+              {
+                "Timestamp": "2025-11-07 15:15",
+                "Open": 18232.65,
+                "High": 18232.65,
+                "Low": 18149.0,
+                "Close": 18220.0,
+                "Volume": 356.0
+              }
+            ]
+          }
+        ],
+        "indicators": {
+          "rsi_start": 54.2151,
+          "rsi_end": 52.6671,
+          "macd_start": 6.2116,
+          "macd_end": 19.168,
+          "macd_hist_trend": "falling",
+          "adx_start": 16.7431,
+          "adx_end": 15.165
+        },
+        "plot_paths": [
+          {
+            "pattern": "Bullish Belthold",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Doji",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Doji",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Doji",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Dragonflydoji",
+            "path": null
+          },
+          {
+            "pattern": "Bearish Engulfing",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Engulfing",
+            "path": null
+          },
+          {
+            "pattern": "Bearish Engulfing",
+            "path": null
+          },
+          {
+            "pattern": "Bearish Engulfing",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Engulfing",
+            "path": null
+          },
+          {
+            "pattern": "Bearish Engulfing",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Gravestonedoji",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Highwave",
+            "path": null
+          },
+          {
+            "pattern": "Bearish Hikkake",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Hikkake",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Longleggeddoji",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Longleggeddoji",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Longleggeddoji",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Longline",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Matchinglow",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Rickshawman",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Rickshawman",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Shortline",
+            "path": null
+          },
+          {
+            "pattern": "Bearish Shortline",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Shortline",
+            "path": null
+          },
+          {
+            "pattern": "Bearish Shortline",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Spinningtop",
+            "path": null
+          },
+          {
+            "pattern": "Bearish Spinningtop",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Spinningtop",
+            "path": null
+          },
+          {
+            "pattern": "Bullish Takuri",
+            "path": null
+          }
+        ],
+        "timestamp": "2025-11-07 15:15"
+      }
+    ]
+  }
+]

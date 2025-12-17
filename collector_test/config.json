@@ -1,0 +1,6 @@
+{
+  "stocks": [
+    { "stock_code": "GOKEX", "instrument_token": 3015169 },
+    { "stock_code": "FORCEMOT", "instrument_token": 128008452 }
+  ]
+}

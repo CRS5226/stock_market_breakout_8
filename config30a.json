@@ -1,0 +1,10 @@
+{
+  "stocks": [
+    { "stock_code": "GOKEX", "instrument_token": 3015169 },
+    { "stock_code": "PARADEEP", "instrument_token": 2493697 },
+    { "stock_code": "RRKABEL", "instrument_token": 4752897 },
+    { "stock_code": "GMDCLTD", "instrument_token": 136238340 },
+    { "stock_code": "FORCEMOT", "instrument_token": 128008452 },
+    { "stock_code": "SHAKTIPUMP", "instrument_token": 136046340 }
+  ]
+}

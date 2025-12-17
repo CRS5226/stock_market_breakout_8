@@ -1,0 +1,150 @@
+{
+  "stock_code": "FORCEMOT",
+  "generated_at": "2025-11-04T16:44:51.754604",
+  "timeframes_used": [
+    "30min",
+    "45min",
+    "1hour",
+    "4hour"
+  ],
+  "weights_by_f1": [
+    0.1820822864321608,
+    0.12076005025125627,
+    0.27842336683417085,
+    0.41873429648241206
+  ],
+  "individual_confidences": [
+    0.3333,
+    0.2,
+    0.266,
+    0.3636
+  ],
+  "ensemble_confidence": 0.31115244189698493,
+  "final_signal": "NOACTION",
+  "per_timeframe": {
+    "30min": {
+      "rows": 998,
+      "train_samples": 798,
+      "test_samples": 200,
+      "base_metrics": {
+        "XGBoost": {
+          "accuracy": 0.755,
+          "precision": 0.375,
+          "recall": 0.1333,
+          "f1": 0.1967
+        },
+        "LightGBM": {
+          "accuracy": 0.72,
+          "precision": 0.2609,
+          "recall": 0.1333,
+          "f1": 0.1765
+        },
+        "LogisticRegression": {
+          "accuracy": 0.365,
+          "precision": 0.256,
+          "recall": 0.9556,
+          "f1": 0.4038
+        }
+      },
+      "meta_metrics": {
+        "accuracy": 0.735,
+        "precision": 0.3333,
+        "recall": 0.1778,
+        "f1": 0.2319
+      }
+    },
+    "45min": {
+      "rows": 345,
+      "train_samples": 276,
+      "test_samples": 69,
+      "base_metrics": {
+        "XGBoost": {
+          "accuracy": 0.7101,
+          "precision": 0.1667,
+          "recall": 0.0625,
+          "f1": 0.0909
+        },
+        "LightGBM": {
+          "accuracy": 0.6957,
+          "precision": 0.1429,
+          "recall": 0.0625,
+          "f1": 0.087
+        },
+        "LogisticRegression": {
+          "accuracy": 0.5797,
+          "precision": 0.2903,
+          "recall": 0.5625,
+          "f1": 0.383
+        }
+      },
+      "meta_metrics": {
+        "accuracy": 0.6812,
+        "precision": 0.2,
+        "recall": 0.125,
+        "f1": 0.1538
+      }
+    },
+    "1hour": {
+      "rows": 998,
+      "train_samples": 798,
+      "test_samples": 200,
+      "base_metrics": {
+        "XGBoost": {
+          "accuracy": 0.53,
+          "precision": 0.2577,
+          "recall": 0.5319,
+          "f1": 0.3472
+        },
+        "LightGBM": {
+          "accuracy": 0.56,
+          "precision": 0.2842,
+          "recall": 0.5745,
+          "f1": 0.3803
+        },
+        "LogisticRegression": {
+          "accuracy": 0.615,
+          "precision": 0.25,
+          "recall": 0.3191,
+          "f1": 0.2804
+        }
+      },
+      "meta_metrics": {
+        "accuracy": 0.545,
+        "precision": 0.266,
+        "recall": 0.5319,
+        "f1": 0.3546
+      }
+    },
+    "4hour": {
+      "rows": 271,
+      "train_samples": 216,
+      "test_samples": 55,
+      "base_metrics": {
+        "XGBoost": {
+          "accuracy": 0.3636,
+          "precision": 0.3636,
+          "recall": 1.0,
+          "f1": 0.5333
+        },
+        "LightGBM": {
+          "accuracy": 0.3636,
+          "precision": 0.3636,
+          "recall": 1.0,
+          "f1": 0.5333
+        },
+        "LogisticRegression": {
+          "accuracy": 0.4364,
+          "precision": 0.3922,
+          "recall": 1.0,
+          "f1": 0.5634
+        }
+      },
+      "meta_metrics": {
+        "accuracy": 0.3636,
+        "precision": 0.3636,
+        "recall": 1.0,
+        "f1": 0.5333
+      }
+    }
+  }
+}

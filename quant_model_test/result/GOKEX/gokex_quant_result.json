@@ -1,0 +1,72 @@
+{
+  "stock_code": "GOKEX",
+  "generated_at": "2025-11-04T12:25:54.278983",
+  "forecasts": [
+    {
+      "timeframe": "5min",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.1771,
+      "train_time_sec": 1.246,
+      "train_accuracy": 0.867,
+      "train_precision": 0.0,
+      "train_recall": 0.0,
+      "train_f1": 0.0,
+      "last_updated": "2025-11-04T12:25:43.858944"
+    },
+    {
+      "timeframe": "15min",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.173,
+      "train_time_sec": 1.225,
+      "train_accuracy": 0.7447,
+      "train_precision": 0.0,
+      "train_recall": 0.0,
+      "train_f1": 0.0,
+      "last_updated": "2025-11-04T12:25:46.622083"
+    },
+    {
+      "timeframe": "30min",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.1789,
+      "train_time_sec": 1.135,
+      "train_accuracy": 0.7128,
+      "train_precision": 0.0,
+      "train_recall": 0.0,
+      "train_f1": 0.0,
+      "last_updated": "2025-11-04T12:25:49.164417"
+    },
+    {
+      "timeframe": "45min",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.4631,
+      "train_time_sec": 0.942,
+      "train_accuracy": 0.6207,
+      "train_precision": 0.5,
+      "train_recall": 0.1364,
+      "train_f1": 0.2143,
+      "last_updated": "2025-11-04T12:25:50.616504"
+    },
+    {
+      "timeframe": "1hour",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.2626,
+      "train_time_sec": 1.145,
+      "train_accuracy": 0.6596,
+      "train_precision": 0.3889,
+      "train_recall": 0.1167,
+      "train_f1": 0.1795,
+      "last_updated": "2025-11-04T12:25:53.068598"
+    },
+    {
+      "timeframe": "4hour",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.2691,
+      "train_time_sec": 0.837,
+      "train_accuracy": 0.4651,
+      "train_precision": 0.0,
+      "train_recall": 0.0,
+      "train_f1": 0.0,
+      "last_updated": "2025-11-04T12:25:54.277980"
+    }
+  ]
+}

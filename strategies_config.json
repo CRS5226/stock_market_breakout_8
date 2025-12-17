@@ -1,0 +1,152 @@
+{
+  "GLOBAL": {
+    "BUF_FRAC": 0.001,
+    "MIN_ETP_PCT": 0.5,
+    "TIMEFRAMES_LOOKAHEAD": {
+      "30min": 48,
+      "45min": 36,
+      "1hour": 32,
+      "4hour": 20
+    }
+  },
+  "BASE_BREAKOUT": {
+    "detector": {
+      "min_index": 20,
+      "trend_close_above_ema_factor": 1.0005,
+      "base_lookback_bars": 10,
+      "base_range_pct_min": 0.2,
+      "base_range_pct_max": 3.5,
+      "atr_pct_max": 9.0,
+      "volume_multiplier_min": 1.0,
+      "breakout_close_above_base_high": 1.0004
+    },
+    "entry_engine": {
+      "entry_above_close_pct": 0.001,
+      "stoploss_below_base_low_atr_fraction": 0.15,
+      "sl_pct_min": 0.2,
+      "sl_pct_max": 2.8,
+      "rr_base": 1.5,
+      "atr_cap_multiplier": 4.0,
+      "atr_cap_min_price_pct": 0.01,
+      "min_etp_pct": 0.2
+    }
+  },
+  "BREAKOUT_RETEST": {
+    "detector": {
+      "min_index": 25,
+      "trend_close_above_ema_factor": 1.00015,
+      "resistance_window": { "start_offset": 18, "end_offset": 5 },
+      "breakout_close_above_resistance": 1.00055,
+      "retest_window_bars": 7,
+      "retest_zone": { "low_factor": 0.998, "high_factor": 1.002 },
+      "body_to_range_ratio_min": 0.16,
+      "atr_pct_max": 9.5,
+      "volume_vs_avg_min": 0.8
+    },
+    "entry_engine": {
+      "entry_factor_over_resistance": 1.00055,
+      "retest_low_lookback": 7,
+      "stoploss_retest_low_atr_fraction": 0.35,
+      "stoploss_fallback_entry_mult": 0.9935,
+      "sl_pct_min": 0.22,
+      "sl_pct_max": 3.1,
+      "rr_formula": {
+        "base": 1.56,
+        "atr_pct_divisor": 6.5,
+        "rr_cap_add": 0.82,
+        "description": "rr = 1.56 + min(0.82, atr_pct/6.5)"
+      },
+      "atr_cap": { "atr_mult": 3.5, "min_price_pct": 0.0105 },
+      "min_etp_pct": 0.28,
+      "reward_vs_risk_mult_min": 1.4
+    }
+  },
+  "EMA_RSI_CONFLUENCE": {
+    "detector": {
+      "min_index": 5,
+      "required_cols": [
+        "close",
+        "open",
+        "high",
+        "MA_Fast",
+        "RSI14",
+        "ATR14",
+        "atr_pct_smooth"
+      ],
+      "trend_close_above_ema": true,
+      "trend_slope_min_fraction_of_price": 0.002,
+      "ema_prev_offset_for_slope": 3,
+      "rsi_momentum_min": 50,
+      "rsi_prev_offset": 1,
+      "rsi_max_long": 80,
+      "rsi_min_short": 20,
+      "atr_pct_max": 1.8,
+      "candle_strength_atr_frac": 0.25,
+      "break_prev_high": true,
+      "break_prev_low": true
+    },
+    "entry_engine_long": {
+      "min_index": 5,
+      "entry_sources": ["body_mid", "ema_plus_atr"],
+      "body_mid_formula": "body_mid = (close + open) / 2",
+      "ema_plus_atr_mult": 0.2,
+      "entry_cap_high_mult": 1.002,
+      "swing_low_lookback": 3,
+      "stoploss_swing_low_atr_mult": 0.6,
+      "sl_pct_min": 0.45,
+      "sl_pct_max": 2.2,
+      "rr_by_atr_pct": [
+        { "atr_pct_lt": 1.0, "rr": 1.0 },
+        { "atr_pct_lt": 1.3, "rr": 1.3 },
+        { "atr_pct_lt": 1.5, "rr": 1.6 },
+        { "atr_pct_ge": 1.5, "rr": 1.9 }
+      ],
+      "rsi_boost_threshold": 65,
+      "rsi_boost_add": 0.3,
+      "min_etp_pct": 0.4,
+      "sr_resistance_cap_mult": 0.998
+    },
+    "entry_engine_short": {
+      "min_index": 5,
+      "entry_sources": ["body_mid", "ema_minus_atr"],
+      "ema_minus_atr_mult": 0.2,
+      "entry_floor_low_mult": 0.9985,
+      "swing_high_lookback": 3,
+      "stoploss_swing_high_atr_mult": 0.6,
+      "sl_pct_min": 0.45,
+      "sl_pct_max": 2.2,
+      "rr_by_atr_pct": "same_as_long",
+      "rsi_boost_threshold_short": 35,
+      "rsi_boost_add": 0.3,
+      "min_etp_pct": 0.4,
+      "sr_support_cap_mult": 1.002
+    }
+  },
+  "HL_BOS": {
+    "detector": {
+      "min_index": 20,
+      "trend_close_above_ema": true,
+      "ema_col": "MA_Fast",
+      "swing_low_short_lookback": 6,
+      "swing_low_prev_lookback": 10,
+      "prev_swing_low_window": { "start_offset": 16, "end_offset": 6 },
+      "swing_low_ratio_min": 0.96,
+      "prev_swing_high_window": { "start_offset": 16, "end_offset": 0 },
+      "break_of_structure_close_above_prev_high_mult": 1.00002,
+      "candle_body_to_range_min": 0.08,
+      "atr_pct_max": 9.0
+    },
+    "entry_engine": {
+      "min_index": 20,
+      "entry_factor_over_prev_swing_high": 1.00015,
+      "stoploss_swing_low_atr_fraction": 0.1,
+      "stoploss_fallback_entry_mult": 0.995,
+      "sl_pct_min": 0.2,
+      "sl_pct_max": 6.0,
+      "rr_dynamic_formula": "rr = min(2.2, 1.4 + (sl_pct/100))",
+      "min_reward_vs_risk_mult": 1.3,
+      "min_etp_pct": 0.2,
+      "sr_resistance_cap_mult": 0.999
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "stock_code": "FORCEMOT",
+  "timeframe": "1hour",
+  "generated_at": "2025-11-04T16:44:50.720957",
+  "rows": 998,
+  "train_samples": 798,
+  "test_samples": 200,
+  "base_metrics": {
+    "XGBoost": {
+      "accuracy": 0.53,
+      "precision": 0.2577,
+      "recall": 0.5319,
+      "f1": 0.3472
+    },
+    "LightGBM": {
+      "accuracy": 0.56,
+      "precision": 0.2842,
+      "recall": 0.5745,
+      "f1": 0.3803
+    },
+    "LogisticRegression": {
+      "accuracy": 0.615,
+      "precision": 0.25,
+      "recall": 0.3191,
+      "f1": 0.2804
+    }
+  },
+  "meta_metrics": {
+    "accuracy": 0.545,
+    "precision": 0.266,
+    "recall": 0.5319,
+    "f1": 0.3546
+  }
+}

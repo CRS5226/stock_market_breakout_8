@@ -1,0 +1,72 @@
+{
+  "stock_code": "FORCEMOT",
+  "generated_at": "2025-11-04T12:25:40.863774",
+  "forecasts": [
+    {
+      "timeframe": "5min",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.1621,
+      "train_time_sec": 0.948,
+      "train_accuracy": 0.7713,
+      "train_precision": 0.0,
+      "train_recall": 0.0,
+      "train_f1": 0.0,
+      "last_updated": "2025-11-04T12:25:31.741865"
+    },
+    {
+      "timeframe": "15min",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.2284,
+      "train_time_sec": 0.997,
+      "train_accuracy": 0.7713,
+      "train_precision": 0.0,
+      "train_recall": 0.0,
+      "train_f1": 0.0,
+      "last_updated": "2025-11-04T12:25:33.910570"
+    },
+    {
+      "timeframe": "30min",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.3286,
+      "train_time_sec": 1.065,
+      "train_accuracy": 0.6915,
+      "train_precision": 0.4545,
+      "train_recall": 0.0877,
+      "train_f1": 0.1471,
+      "last_updated": "2025-11-04T12:25:36.124000"
+    },
+    {
+      "timeframe": "45min",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.1411,
+      "train_time_sec": 0.941,
+      "train_accuracy": 0.6552,
+      "train_precision": 0.0,
+      "train_recall": 0.0,
+      "train_f1": 0.0,
+      "last_updated": "2025-11-04T12:25:37.454475"
+    },
+    {
+      "timeframe": "1hour",
+      "quant_signal": "NOACTION",
+      "quant_confidence": 0.2871,
+      "train_time_sec": 1.043,
+      "train_accuracy": 0.5426,
+      "train_precision": 0.2727,
+      "train_recall": 0.2459,
+      "train_f1": 0.2586,
+      "last_updated": "2025-11-04T12:25:39.776232"
+    },
+    {
+      "timeframe": "4hour",
+      "quant_signal": "BUY",
+      "quant_confidence": 0.7288,
+      "train_time_sec": 0.764,
+      "train_accuracy": 0.5581,
+      "train_precision": 0.5,
+      "train_recall": 0.4737,
+      "train_f1": 0.4865,
+      "last_updated": "2025-11-04T12:25:40.862644"
+    }
+  ]
+}
