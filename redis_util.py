@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 load_dotenv()
 
 REDIS_PREFIX = "MARKETDATA"
-MAX_CANDLES = 500
+MAX_CANDLES = 100
 
 
 def get_redis():
