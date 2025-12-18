@@ -28,7 +28,7 @@ TIMEFRAMES = {
     "1hour": {"interval": "60minute", "delta": timedelta(hours=1)},
 }
 
-MAX_CANDLES = 500
+MAX_CANDLES = 100
 
 
 # ===================================================
