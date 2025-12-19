@@ -228,8 +228,8 @@ def forecast_manager():
     while True:
         try:
             # Try Redis first
-            stocks = load_stocks_from_redis()
-            # stocks = None
+            #stocks = load_stocks_from_redis()
+            stocks = None
             if not stocks:
                 # fallback to local config.json
                 config_data = load_config(CONFIG_PATH)
