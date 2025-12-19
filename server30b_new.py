@@ -37,7 +37,7 @@ from basic_algo5a import basic_forecast_update
 from redis_util import get_redis, save_forecast_to_redis, save_buy_signal_to_redis
 
 # === GLOBAL CONFIG ===
-CONFIG_PATH = "config30a.json"
+CONFIG_PATH = "config.json"
 GOOGLE_SHEET_NAME = os.getenv("GOOGLE_SHEET_NAME")
 TAB_NAME = os.getenv("TAB_NAME_30B")
 USE_LLM = False
