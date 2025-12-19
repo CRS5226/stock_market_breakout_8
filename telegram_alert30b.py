@@ -30,7 +30,7 @@ load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN_30b")
 CHAT_IDS_FILE = "telegram_chat_ids_30b.json"
-CONFIG_FILE = "config30b.json"
+CONFIG_FILE = "config.json"
 STOCKS_CSV = "stocks_reference.csv"
 
 logging.basicConfig(level=logging.INFO)
