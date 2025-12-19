@@ -334,7 +334,7 @@ def send_buy_alert(
         7: "1day",
     }
 
-    allowed_tfs = {0, 1, 2, 3, 4, 5, 6}  # only major TFs
+    allowed_tfs = {0, 1, 2, 3, 4, 5, 6, 7}  # only major TFs
     if tf_index not in allowed_tfs:
         return
 
