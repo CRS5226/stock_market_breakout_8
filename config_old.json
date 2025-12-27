@@ -1,0 +1,60 @@
+{
+  "stocks": [
+    { "stock_code": "RRKABEL", "instrument_token": 4752897 },
+    { "stock_code": "GMDCLTD", "instrument_token": 136238340 },
+    { "stock_code": "FORCEMOT", "instrument_token": 128008452 },
+    { "stock_code": "SHAKTIPUMP", "instrument_token": 136046340 },
+    { "stock_code": "CDSL", "instrument_token": 5420545 },
+    { "stock_code": "NATIONALUM", "instrument_token": 136251908 },
+    { "stock_code": "CLEAN", "instrument_token": 139089412 },
+    { "stock_code": "DATAPATTNS", "instrument_token": 139117572 },
+    { "stock_code": "ARVIND", "instrument_token": 128025860 },
+    { "stock_code": "ABBOTINDIA", "instrument_token": 128124932 },
+    { "stock_code": "AARTIIND", "instrument_token": 134197252 },
+    { "stock_code": "MCX", "instrument_token": 7982337 },
+    { "stock_code": "UNOMINDA", "instrument_token": 3623425 },
+    { "stock_code": "CHOLAFIN", "instrument_token": 175361 },
+    { "stock_code": "KAJARIACER", "instrument_token": 462849 },
+    { "stock_code": "NATCOPHARM", "instrument_token": 1003009 },
+    { "stock_code": "POLYCAB", "instrument_token": 2455041 },
+
+    { "stock_code": "TCS", "instrument_token": 2953217 },
+    { "stock_code": "NTPC", "instrument_token": 2977281 },
+    { "stock_code": "MARUTI", "instrument_token": 2815745 },
+    { "stock_code": "LT", "instrument_token": 2939649 },
+
+    { "stock_code": "HDFCBANK", "instrument_token": 341249 },
+    { "stock_code": "ICICIBANK", "instrument_token": 1270529 },
+    { "stock_code": "AXISBANK", "instrument_token": 1510401 },
+    { "stock_code": "RELIANCE", "instrument_token": 738561 },
+    { "stock_code": "INFY", "instrument_token": 408065 },
+    { "stock_code": "BAJFINANCE", "instrument_token": 81153 },
+    { "stock_code": "BHARTIARTL", "instrument_token": 2714625 },
+    { "stock_code": "SBIN", "instrument_token": 779521 },
+    { "stock_code": "SUNPHARMA", "instrument_token": 857857 },
+
+    { "stock_code": "TVSMOTOR", "instrument_token": 2170625 },
+    { "stock_code": "APOLLOHOSP", "instrument_token": 40193 },
+    { "stock_code": "RECLTD", "instrument_token": 3930881 },
+    { "stock_code": "BHARATFORG", "instrument_token": 108033 },
+    { "stock_code": "FEDERALBNK", "instrument_token": 261889 },
+    { "stock_code": "TATASTEEL", "instrument_token": 895745 },
+    { "stock_code": "POWERGRID", "instrument_token": 3834113 },
+    { "stock_code": "HINDZINC", "instrument_token": 364545 },
+    { "stock_code": "UNIONBANK", "instrument_token": 2752769 },
+    { "stock_code": "CUMMINSIND", "instrument_token": 486657 },
+
+    { "stock_code": "TATAMOTORS", "instrument_token": 884737 },
+    { "stock_code": "HINDALCO", "instrument_token": 348929 },
+    { "stock_code": "JIOFIN", "instrument_token": 4644609 },
+    { "stock_code": "JSWENERGY", "instrument_token": 3001089 },
+
+    { "stock_code": "HCLTECH", "instrument_token": 1850625 },
+    { "stock_code": "ITC", "instrument_token": 424961 },
+    { "stock_code": "M&M", "instrument_token": 519937 },
+
+    { "stock_code": "GAIL", "instrument_token": 1207553 },
+    { "stock_code": "ASHOKLEY", "instrument_token": 54273 },
+    { "stock_code": "NMDC", "instrument_token": 3924993 }
+  ]
+}
